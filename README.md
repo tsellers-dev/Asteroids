@@ -1,6 +1,10 @@
 # Asteroids
 
-A classic 2D Asteroids arcade game built in Python using [Pygame](https://pygame.org "Pygame official website"), created as part of the [Boot.dev](https://www.boot.dev/ "Boot.dev platform") curriculum.
+A classic 2D Asteroids arcade game built in Python using [Pygame](https://pygame.org), created as part of the [Boot.dev](https://boot.dev) curriculum.
+
+## Motivation
+
+This project was built to practice object-oriented programming (OOP) principles in Python, including inheritance, polymorphism, and modular code organization. By recreating a classic arcade game from scratch, it demonstrates how to manage a real-time game loop, handle user input, render vector graphics, and implement circle-based collision detection without relying on a full game engine.
 
 ## Features
 
@@ -24,12 +28,14 @@ asteroids/
 └── README.md           # Project documentation
 ```
 
-## Prerequisites
+## Quick Start
+
+### Prerequisites
 
 - **Python 3.10+**
-- **[uv](https://astral.sh "uv Python package manager")** (recommended, per Boot.dev setup) or **pip**
+- **[uv](https://astral.sh)** (recommended, per Boot.dev setup) or **pip**
 
-## Installation & Setup
+### Installation
 
 1. **Clone the repository:**
    ```bash
@@ -51,7 +57,7 @@ asteroids/
    pip install pygame
    ```
 
-## How to Run
+## Usage
 
 Start the game from the root directory:
 
@@ -65,7 +71,7 @@ uv run main.py
 python3 main.py
 ```
 
-## Controls
+### Controls
 
 | Key | Action |
 | :--- | :--- |
@@ -74,6 +80,21 @@ python3 main.py
 | **A** | Rotate Left |
 | **D** | Rotate Right |
 | **Space** | Fire Weapon |
+
+## Contributing
+
+Contributions, bug reports, and feature ideas are welcome! If you'd like to extend the game (such as adding a scoring system, multiple lives, or power-ups):
+
+1. Fork the project.
+2. Create your feature branch (`git checkout -b feature/amazing-feature`).
+3. Commit your changes (`git commit -m 'Add some amazing feature'`).
+4. Push to the branch (`git push origin feature/amazing-feature`).
+5. Open a Pull Request.
+
+## Acknowledgments
+
+- Built following the **Build Asteroids using Python and Pygame** guided project on [Boot.dev](https://boot.dev).
+
 
 ## Acknowledgments
 
